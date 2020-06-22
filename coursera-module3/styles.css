@@ -74,37 +74,3 @@ hr {
   margin: 80px;
   opacity: 80%;
 }
-
-/*Media queries*/
-@media (min-width: 992px) {
-  .column-l {
-    padding: 10px;
-    float:left;
-    width: 33.33%;
-  }
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-  .column-m {
-    padding: 10px;
-    float: left;
-    clear: right;
-    width: 50%;
-  }
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-  .column-m-2 {
-    padding: 10px;
-    float: left;
-    width: 100%;
-  }
-}
-
-@media (max-width: 767px) {
-  .column-s {
-    padding: 10px;
-    float: left;
-    width: 100%;
-  }
-}
